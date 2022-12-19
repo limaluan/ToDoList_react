@@ -1,0 +1,52 @@
+:root {
+  --danger: #e25858;
+  --blue: #4ea8de;
+  --blue-dark: #1e6f9f;
+  --purple: #8284fa;
+  --purple-dark: #5e60ce;
+  --gray-100: #f2f2f2;
+  --gray-200: #d9d9d9;
+  --gray-300: #808080;
+  --gray-400: #333333;
+  --gray-500: #262626;
+  --gray-600: #1a1a1a;
+  --gray-700: #0d0d0d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+button {
+  cursor: pointer;
+  transition: filter 100ms;
+  font-size: 1.4rem;
+}
+
+button:hover {
+  filter: brightness(0.8);
+}
+
+input {
+  font-size: 1.6rem;
+}
+
+button, input {
+  background: none;
+  border: none;
+  padding: 1.6rem;
+  border-radius: 0.8rem;
+}
+
+body {
+  background-color: var(--gray-600);
+  -webkit-font-smoothing: antialiased;
+}
