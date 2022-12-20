@@ -15,9 +15,9 @@
   position: absolute;
   bottom: 0px;
 
-  transform: translateY(50%);
   gap: 0.8rem;
   width: 50vw;
+  transform: translateY(50%);
 }
 
 .input {
