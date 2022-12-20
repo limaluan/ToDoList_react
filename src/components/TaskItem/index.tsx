@@ -14,7 +14,7 @@ export function TaskItem({ description, isComplete, id }: ITask) {
       {isComplete
         ? <img src={checkedIcon} />
         : <img src={circleIcon} onClick={() => completeTask(id)} />}
-      <p>{description}</p>
+      <p className={isComplete ? styles.complete : ""}>{description}</p>
       <img src={trashIcon} onClick={() => deleteTask(id)} />
     </div>
   );

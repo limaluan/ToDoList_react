@@ -52,3 +52,9 @@ body {
   background-color: var(--gray-600);
   -webkit-font-smoothing: antialiased;
 }
+
+@media (max-width: 850px) {
+  html {
+    font-size: 60%;
+  }
+}
